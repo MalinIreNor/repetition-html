@@ -1,0 +1,38 @@
+/* kommenter*/
+
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #445566;
+}
+
+nav {
+    background-color: black;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover{
+    color: blueviolet;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;/*centrerar innehållet i wrappern*/
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;/*häng med bara ovan*/
+}
+
+#bg-white {
+    background-color: white;
+    padding: 1em;
+}
+

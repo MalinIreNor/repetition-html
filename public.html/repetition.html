@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML- & CSS repetition</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <!-- numrerad lista -->
+      <!-- <ol>
+      <li></li>
+    </ol> -->
+    <!-- onumrerad lista -->
+    <ul>
+      <li><a href="/">Hem</a></li>
+      <li><a href="produkter.html">Produkter</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="bg-white">
+    <!-- div är en generisk tagg osm inte betyder ngt för läsare. För att gruppera alla taggar. Säger inget om innehållet men boxar in det.-->
+    <div class="wrapper"><!--denna gör inget just nu-->
+      <h1>Hej Världen</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sunt animi laborum quasi doloremque voluptatibus quaerat laudantium nesciunt, laboriosam dolor, sed magnam architecto similique libero. Commodi possimus officiis ex rerum.</p>
+    
+        <!--Formulär-->
+      <form class"contact-form" action="action.html" method="POST/get">
+        <label for="firstname">Förnamn</label>
+        <br>
+        <input type="text" name="firstname" value="Vad som skall stå förifyllt">
+        <br><br>
+        <label for="lastname">Efternamn</label>
+        <br>
+        <input type="text" name="lastname">
+        <br><br>
+        <label for="password">Ange lösenord</label>
+        <br>
+        <input type="password" name="password">
+        <br><br>
+        <input type="submit" name="submit"><!--Def ej value så texten anpassas till webbläsarspråket-->
+      </form>
+  <!--Slut på formulär-->
+    
+
+
+    <h2>Instagram</h2>
+    <img src="https://images.pexels.com/photos/32870/pexels-photo.jpg?h=350&auto=compress&cs=tinysrgb" alt="alternative text" class="img-fluid">
+  </div>
+  <!-- /.wrapper Skriv alltiv vilken div denna hör ihop med-->
+  </section>
+
+</main>
+
+<footer>
+  <small>Copyright &copy; Malin Irevång 2018</small>
+</footer>
+</body>
+</html>
